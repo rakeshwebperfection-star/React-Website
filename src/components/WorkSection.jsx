@@ -67,6 +67,7 @@ function WorkSection() {
                                 <li>Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</li>
                                 <li>Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness</li>
                                 <li>Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more</li>
+                                <li>Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more</li>
                             </ul>
                         </Tab.Pane>
                     </Tab.Content>
