@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection';
 import WorkSection from './components/WorkSection';
 import ProjectSection from './components/ProjectSection';
 import OtherProjects from './components/OtherProjects';
+import GetTouch from './components/GetTouch';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <WorkSection />
         <ProjectSection />
         <OtherProjects />
+        <GetTouch />
       </main>
     </div>
   );

@@ -456,3 +456,10 @@ button:focus-visible {
 .project-grid-column .project-tech-list li:hover {
   transform: scale(1.04);
 }
+
+
+
+.get-touch-wrapper {
+  padding: 100px 0px;
+  background-color: var(--body-bg);
+}
