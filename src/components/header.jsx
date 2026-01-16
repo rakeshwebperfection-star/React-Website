@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
+
 
 function Header() {
   return (
@@ -13,12 +15,13 @@ function Header() {
                 </Navbar.Brand>
                 <div className='header-menu-wrapper'>
                     <Nav className="header-menu">
+                        <Nav.Link as={Link} to="/home1">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#worked">Experience</Nav.Link>
                         <Nav.Link href="#work">Work</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
-                    <a href="/resume.pdf" className='resume-button'>Resume</a>
+                    <a href="/resume.pdf" className='resume-button' target="_blank" rel="noopener noreferrer">Resume</a>
                 </div>
             </Container>
         </Navbar>

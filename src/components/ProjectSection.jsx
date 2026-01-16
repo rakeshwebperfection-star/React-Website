@@ -7,12 +7,12 @@ function ProjectSection() {
       <Container>
         <div className='about-inner'>
             <Row>
-                <Col sm={12}>
+                <Col sm={12} data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <h2 className='numbered-heading'>Some Things I’ve Built</h2>
                 </Col>
             </Row>
             <Row className='my-4'>
-                <Col md={6}>
+                <Col md={6} data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <div className='project-column'>
                         <div className='project-img'>
                             <img src="https://v4.brittanychiang.com/static/3b4d6e8f44baf7e6d7a0ed4b3e4d8d39/f47db/halcyon.avif" alt="project-img" loading='lazy' />
@@ -39,7 +39,7 @@ function ProjectSection() {
                         </div>
                     </div>
                 </Col>
-                <Col md={6}>
+                <Col md={6} data-aos="zoom-in-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <div className='project-column'>
                         <div className='project-img'>
                             <img src="https://v4.brittanychiang.com/static/3936989a99991beb6d649d7a7039df60/f47db/demo.avif" alt="project-img" loading='lazy' />

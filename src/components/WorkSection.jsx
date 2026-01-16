@@ -6,12 +6,12 @@ import Tab from 'react-bootstrap/Tab';
 function WorkSection() {
 
   return (
-    <section id='worked' className='worked-section about-section'>
+    <section id='work' className='worked-section about-section'>
       <Container>
         <div className='about-inner'>
-            <h2 className='numbered-heading'>Where I’ve Worked</h2>
+            <h2 className='numbered-heading' data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">Where I’ve Worked</h2>
             <Tab.Container id="left-tabs-example" defaultActiveKey="Upstatement">
-                <Row className='worked-tabs'>
+                <Row className='worked-tabs' data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                     <Col sm={3}>
                     <Nav variant="pills" className="flex-column">
                         <Nav.Item><Nav.Link eventKey="Upstatement">Upstatement</Nav.Link></Nav.Item>

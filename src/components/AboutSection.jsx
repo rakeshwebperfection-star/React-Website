@@ -7,10 +7,10 @@ function AboutSection() {
       <Container>
         <div className='about-inner'>
             <Row>
-                <Col sm={12}>
+                <Col sm={12} data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <h2 className='numbered-heading'>About Me</h2>
                 </Col>
-                <Col md={7}>
+                <Col md={7} data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out">
                     <div className='about-info'>
                         <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
                         <p>Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</p>
@@ -26,7 +26,7 @@ function AboutSection() {
                         </ul>
                     </div>
                 </Col>
-                <Col md={5}>
+                <Col md={5} data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in-out">
                     <div className='about-img'>
                         <img src="https://v4.brittanychiang.com/static/30a645f7db6038f83287d0c6042d3b2b/f9526/me.avif" alt="user-img" loading='lazy' />
                     </div>

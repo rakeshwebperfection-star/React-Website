@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 90% !important;
+    max-width: 1440px !important;
+    margin: 0 auto;
+}
+
+
+/* Top Header Start */
+
+.horizontal-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.2rem;
+    padding: 0;
+}
+.horizontal-list li {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.horizontal-list li svg {
+    color: var(--heading-color);
+}
+.horizontal-list li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+.horizontal-list li:hover a {
+    color: var(--heading-color);
+}
+.horizontal-list .social-list {
+    column-gap: 0.8rem;
+}
+.horizontal-list .social-list svg {
+    width: auto;
+    height: 18px;
+    transition: all 0.5s ease-in-out;
+}
+.horizontal-list .social-list svg:hover {
+    color: var(--primary-color);
+    transform: scale(1.04);
+}
+
+
+
+/* Middle Header Start */
+

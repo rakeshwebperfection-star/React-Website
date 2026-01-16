@@ -7,12 +7,12 @@ function OtherProjects() {
         <Container>
             <Row>
                 <Col sm={12}>
-                    <h2 className='numbered-heading mb-3'>Other Noteworthy Projects</h2>
-                    <h4 className='mb-5'>View The Archive</h4>
+                    <h2 className='numbered-heading mb-3' data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">Other Noteworthy Projects</h2>
+                    <h4 className='mb-5' data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1400" data-aos-easing="ease-in-out">View The Archive</h4>
                 </Col>
             </Row>
             <Row className='row-gap-4'>
-                <Col md="6" lg={4}>
+                <Col md="6" lg={4} data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div className='project-grid-column'>
                         <div className='project-grid-icon'>
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -27,7 +27,7 @@ function OtherProjects() {
                     </div>
                 </Col>
                 <Col md="6" lg={4}>
-                    <div className='project-grid-column'>
+                    <div className='project-grid-column' data-aos="fade-in" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <div className='project-grid-icon'>
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                         </div>
@@ -41,7 +41,7 @@ function OtherProjects() {
                     </div>
                 </Col>
                 <Col md="6" lg={4}>
-                    <div className='project-grid-column'>
+                    <div className='project-grid-column' data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div className='project-grid-icon'>
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                         </div>
@@ -55,7 +55,7 @@ function OtherProjects() {
                         </ul>
                     </div>
                 </Col>
-                <Col md="6" lg={4}>
+                <Col md="6" lg={4} data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <div className='project-grid-column'>
                         <div className='project-grid-icon'>
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -70,7 +70,7 @@ function OtherProjects() {
                     </div>
                 </Col>
                 <Col md="6" lg={4}>
-                    <div className='project-grid-column'>
+                    <div className='project-grid-column' data-aos="fade-in" data-aos-offset="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <div className='project-grid-icon'>
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                         </div>
@@ -83,7 +83,7 @@ function OtherProjects() {
                     </div>
                 </Col>
                 <Col md="6" lg={4}>
-                    <div className='project-grid-column'>
+                    <div className='project-grid-column' data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div className='project-grid-icon'>
                             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                         </div>
