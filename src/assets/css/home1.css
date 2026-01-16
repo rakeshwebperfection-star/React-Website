@@ -12,6 +12,11 @@ body {
     overflow-x: hidden;
 }
 
+::selection {
+    color: var(--primary-color);
+    background-color: var(--body-bg);
+}
+
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     width: 90% !important;
     max-width: 1440px !important;
