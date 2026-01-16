@@ -7,6 +7,8 @@ import { FiSearch, FiUser } from "react-icons/fi";
 import { LuHeart } from "react-icons/lu";
 import { BsCart } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import brandLogo from "../../assets/images/brand_logo.png";
+
 
 
 function MiddleHeader() {
@@ -17,7 +19,8 @@ function MiddleHeader() {
     <Navbar expand="lg" className="middle-header pb-4">
       <Container>
         <Navbar.Brand href="#home">
-            <img src="https://html.themexriver.com/radios/assets/img/logo/logo.svg" alt="Brand Logo" loading='lazy' />
+            {/* <img src="https://html.themexriver.com/radios/assets/img/logo/logo.svg" alt="Brand Logo" loading='lazy' /> */}
+           <img src={brandLogo} alt="Brand Logo" />
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 mx-auto">

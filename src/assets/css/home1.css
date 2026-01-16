@@ -64,6 +64,12 @@ body {
 
 
 /* Middle Header Start */
+.navbar-brand img {
+    width: 100%;
+    max-width: 128px;
+    height: auto;
+    object-fit: contain;
+}
 .middle-header form.search-form {
     display: flex;
     width: 100%;
@@ -179,15 +185,20 @@ body {
 .header__bottom-wrap {
     width: 100%;
     height: 100%;
-    min-height: 80px;
     display: flex;
     align-items: center;
+    padding: 15px 0px;
     background-color: var(--heading-color);
 }
+.header__bottom-wrap .hamburger_Icon {
+    padding: 5px;
+    border-radius: 2px;
+    background-color: var(--body-bg);
+}
 .header__bottom-wrap .hamburger_Icon svg {
-    width: 30px;
+    width: 26px;
     height: auto;
-    color: var(--body-bg);
+    color: var(--heading-color);
     cursor: pointer;
 }
 .header_offcanvas.offcanvas.offcanvas-end {
@@ -232,4 +243,62 @@ body {
 .header_offcanvas .offcanvas-body .canvas_list_Menu a:hover {
     color: var(--heading-color);
     padding-left: 5px;
+}
+
+.header_Categories ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header_Categories ul li {
+    padding: 0 16px;
+}
+.header_Categories ul li:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+.header_Categories ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--body-bg);
+    font-weight: 500;
+    line-height: 1;
+}
+.header_Categories ul li a::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--body-bg);
+    transition: all 0.5s ease-in-out;
+    transform: scale(0);
+}
+.header_Categories ul li a:hover:before {
+    transform: scale(1);
+}
+
+.header__bottom-wrap .header__bottom-Inner {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+body .btn-light {
+    background-color: var(--body-bg);
+    border: 2px solid var(--body-bg);
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 10px 18px;
+    transition: all 0.5s ease-in-out;
+}
+body .btn-light:hover {
+    color: var(--body-bg);
+    background-color: transparent;
+    opacity: 1;
+}
+body .btn-light.login-btn {
+    font-weight: 600;
 }
