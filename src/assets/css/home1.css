@@ -583,6 +583,9 @@ ul.rating-star {
 .hot-deal__slide .slick-arrow:hover::before {
     border-color: var(--primary-color);
 }
+.hot-deal__slide .deal_slide-item {
+    position: relative;
+}
 .hot-deal__slide .deal_slide-item .deal_slide-thumb {
     padding: 30px 15px;
 }
@@ -634,7 +637,12 @@ ul.rating-star {
     padding: 20px 0px 40px;
 }
 .new_Arrivel1 .product_Nav-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
     border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 28px;
 }
 .section_Heading {
     font-size: 26px;
@@ -647,7 +655,7 @@ ul.rating-star {
 }
 .section_Heading > span::before {
     position: absolute;
-    bottom: -9px;
+    bottom: -11px;
     left: 0;
     width: 100%;
     content: "";
@@ -656,4 +664,151 @@ ul.rating-star {
 }
 .section_Heading > span span {
     color: var(--heading-color);
+}
+.new_Arrivel1 .product_Nav-wrap .product_Nav {
+    flex-grow: 1;
+    justify-content: center;
+    gap: 0.6rem;
+}
+.new_Arrivel1 .product_Nav-wrap .product_Nav .nav-item a {
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--primary-color);
+    padding: 8px 28px;
+    background-color: transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.new_Arrivel1 .product_Nav-wrap .product_Nav .nav-item a:hover,
+.new_Arrivel1 .product_Nav-wrap .product_Nav .nav-item a.active {
+    color: var(--body-bg);
+    background-color: var(--heading-color);
+}
+
+
+.vd_Products .hot-deal__slide .deal_slide-content .product_title {
+    line-height: 0.8;
+}
+.vd_Products .hot-deal__slide .deal_slide-content .product_title a {
+    font-size: 15px;
+}
+.vd_Products ul.rating-star {
+    margin-bottom: 8px;
+}
+.vd_Products ul.rating-star li {
+    line-height: 1;
+    font-size: 15px;
+}
+.vd_Products ul.rating-star li:last-child {
+    padding-top: 4px;
+}
+.vd_Products .hot-deal__slide .deal_slide-content .product__price {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0px;
+    gap: 0.4rem;
+}
+.vd_Products .hot-deal__slide .deal_slide-item .deal_slide-thumb {
+    width: 100%;
+    height: 200px;
+}
+.vd_Products .hot-deal__slide .deal_slide-item .deal_slide-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 0.8s ease-in-out;
+}
+.vd_Products .tab-content .slick-track .slick-slide .deal_slide-item {
+    padding: 30px 20px 0;
+    transition: all 0.8s ease-in-out;
+}
+.vd_Products .tab-content .slick-track .slick-slide:hover .deal_slide-thumb img {
+    transform: scale(1.08);
+}
+.vd_Products .tab-content .slick-track .slick-slide.slick-active:not(:last-child) .deal_slide-item {
+    border-right: 1px solid #e5e5e5;
+}
+.vd_Products_tab-content 
+.slick-track 
+.slick-slide.slick-active:not(.slick-cloned):last-of-type {
+    border-right: none !important;
+}
+.vd_Products .hot-deal__slide .slick-arrow {
+    top: -48px;
+}
+.badge-skew {
+    font-size: 11px;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    left: 14px;
+    z-index: 1;
+    padding: 4px 12px 5px;
+    display: inline-block;
+    line-height: 1;
+    color: var(--body-bg);
+}
+.badge-skew::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--heading-color);
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    -webkit-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    transform: skew(-10deg);
+}
+ul.product__action {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    list-style: none;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+}
+ul.product__action li {
+    transform: translateY(8px);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+ul.product__action li:nth-child(2) {
+    transition-delay: .1s;
+}
+ul.product__action li:nth-child(3) {
+    transition-delay: .2s;
+}
+ul.product__action li a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--heading-color);
+    background-color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--heading-color);
+    transition: all 0.5s ease-in-out;
+}
+ul.product__action li a:hover {
+    color: var(--body-bg);
+    background-color: var(--heading-color);
+}
+ul.product__action li a svg {
+    font-size: 18px;
+}
+.vd_Products .deal_slide-item:hover .product__action li {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
 }
