@@ -6,6 +6,7 @@ import BottomHeader from '../components/home1/BottomHeader'
 import HeroSlider1 from '../components/home1/HeroSlider1'
 import ShippingInfo1 from '../components/home1/ShippingInfo1'
 import NewArrival1 from '../components/home1/NewArrival1'
+import CatagorySection1 from '../components/home1/CatagorySection1'
 
 function Home1() {
   return (
@@ -17,6 +18,7 @@ function Home1() {
         <HeroSlider1 />
         <ShippingInfo1 />
         <NewArrival1 />
+        <CatagorySection1 />
       </main>
     </>
   )

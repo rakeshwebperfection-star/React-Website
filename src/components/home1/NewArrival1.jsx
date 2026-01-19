@@ -16,7 +16,7 @@ function NewArrival1() {
         speed: 500,
         slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: false
+        autoplay: true
     };
 
   return (
