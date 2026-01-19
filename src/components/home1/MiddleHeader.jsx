@@ -10,7 +10,6 @@ import { Link } from 'react-router-dom';
 import brandLogo from "../../assets/images/brand_logo.png";
 
 
-
 function MiddleHeader() {
     
     const [validated, setValidated] = useState(false);
@@ -18,7 +17,7 @@ function MiddleHeader() {
   return (
     <Navbar expand="lg" className="middle-header pb-4">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
             {/* <img src="https://html.themexriver.com/radios/assets/img/logo/logo.svg" alt="Brand Logo" loading='lazy' /> */}
            <img src={brandLogo} alt="Brand Logo" />
         </Navbar.Brand>
@@ -39,7 +38,7 @@ function MiddleHeader() {
                         <option value="9">Organic & Snacks</option>
                     </Form.Select>
                 </div>
-                <Form.Control type="text" placeholder="Search" className=" mr-sm-2" required />
+                <Form.Control type="text" placeholder="Search" className="mr-sm-2" required />
                 <button type="submit" className='btn-search'><FiSearch /></button>
             </Form>
           </Nav>

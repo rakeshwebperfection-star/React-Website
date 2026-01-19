@@ -3,6 +3,9 @@ import "../assets/css/home1.css"
 import TopHeader from '../components/home1/TopHeader'
 import MiddleHeader from '../components/home1/MiddleHeader'
 import BottomHeader from '../components/home1/BottomHeader'
+import HeroSlider1 from '../components/home1/HeroSlider1'
+import ShippingInfo1 from '../components/home1/ShippingInfo1'
+import NewArrival1 from '../components/home1/NewArrival1'
 
 function Home1() {
   return (
@@ -11,7 +14,9 @@ function Home1() {
       <MiddleHeader />
       <BottomHeader />
       <main className='main-content'>
-        <div style={{height: '100vh'}}></div>
+        <HeroSlider1 />
+        <ShippingInfo1 />
+        <NewArrival1 />
       </main>
     </>
   )
