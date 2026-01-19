@@ -917,6 +917,22 @@ ul.product__action li a svg {
 .ct_Slider-product.vd_Products .hot-deal__slide .deal_slide-content .product_title a {
     font-size: 14px;
 }
-.ct_Slider-product .hot-deal__slide .deal_slide-item:hover .deal_slide-thumb img {
+.hot-deal__slide .deal_slide-item:hover .deal_slide-thumb img {
     transform: scale(1.08);
+}
+
+
+.smart_Product .hot-deal__slide .deal_slide-content {
+    text-align: left;
+}
+.smart_Product .vd_Products ul.rating-star,
+.smart_Product .vd_Products .hot-deal__slide .deal_slide-content .product__price {
+    justify-content: flex-start;
+}
+.smart_Product .badge-skew::before {
+    transform: none;
+    border-radius: 100px;
+}
+.smart_Product.new_Arrivel1 .product_Nav-wrap .product_Nav {
+    justify-content: flex-end;
 }
