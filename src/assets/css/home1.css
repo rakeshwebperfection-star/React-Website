@@ -936,3 +936,22 @@ ul.product__action li a svg {
 .smart_Product.new_Arrivel1 .product_Nav-wrap .product_Nav {
     justify-content: flex-end;
 }
+
+
+.marquee_Heading {
+    margin: 60px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;
+}
+.marquee_Heading h2 {
+    font-size: 58px;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0px 12px;
+}
+.marquee_Heading h2 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--primary-color);
+}

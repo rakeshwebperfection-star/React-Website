@@ -8,6 +8,8 @@ import ShippingInfo1 from '../components/home1/ShippingInfo1'
 import NewArrival1 from '../components/home1/NewArrival1'
 import CatagorySection1 from '../components/home1/CatagorySection1'
 import SmartProducts from '../components/home1/SmartProducts'
+import MarqueeHeading from '../components/home1/MarqueeHeading'
+import ProductCatagories from '../components/home1/ProductCatagories'
 
 function Home1() {
   return (
@@ -19,8 +21,11 @@ function Home1() {
         <HeroSlider1 />
         <ShippingInfo1 />
         <NewArrival1 />
+        <MarqueeHeading />
         <CatagorySection1 />
         <SmartProducts />
+        <MarqueeHeading />
+        <ProductCatagories />
       </main>
     </>
   )
